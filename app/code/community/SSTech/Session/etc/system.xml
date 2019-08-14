@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<config>
+	 <tabs>
+        <sstech translate="label">
+            <label>SSTech Extension</label>
+            <sort_order>150</sort_order>
+        </sstech>
+    </tabs>
+    <sections>
+        <itemconfig translate="label" module="adminhtml">
+            <label>Hide For Non Register</label>
+            <tab>sstech</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				 <session_config translate="label">
+					 <label>Hide For Non Register</label>
+					 <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+						<active translate="label comment">
+                            <label>Enable Module</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>51</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+					</fields>	
+				 </session_config>
+            </groups>
+            <groups>
+				<listitem>
+					<label>System Configuration</label>
+					 <sort_order>52</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>			
+					<fields>
+						<price translate="label comment">
+                            <label>Show Price</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>53</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                              <comment>Yes to show price for non register user</comment>
+                        </price>
+                        <addtocart translate="label comment">
+                            <label>Show Add to cart</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>54</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                             <comment>Yes to show addtocart for non register user</comment>
+                        </addtocart>
+                        <wc translate="label comment">
+                            <label>Show Wishlist and Compare</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>55</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Yes to show  compare and wishlist for non register user</comment>
+                        </wc>   
+                         <review translate="label comment">
+                            <label>Show Reviews</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>56</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Yes to show review for non register user</comment>
+                        </review>                     
+					</fields>
+			</listitem>
+            </groups>
+         </itemconfig>
+ </sections>
+</config>

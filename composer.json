@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/SSTech_Session",
+    "type": "magento-module",
+    "license": "Open-Source-License",
+    "homepage": "",
+    "description": "Extension which will allow to hide the price ,add to cart ,compare ,wishlist for the non register user ",
+    "authors": [
+    {
+        "name": "SSTech",
+        "email": "sandynaresh@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

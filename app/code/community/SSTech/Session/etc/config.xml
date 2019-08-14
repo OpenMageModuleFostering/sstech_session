@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	 <modules>
+		 <SSTech_Session>
+			 <version>1.0.0</version>
+		 </SSTech_Session>
+	 </modules>
+	 <frontend>
+		 <layout>
+			 <updates>
+				 <session>
+					<file>hideprice.xml</file>
+				 </session>
+			 </updates>
+		 </layout>
+	 </frontend>
+	 <default>
+		 <itemconfig>
+			<session_config>
+				<active>1</active>
+			</session_config>
+			<attribute_config>
+				<price>0</price>
+				<addtocart>0</addtocart>
+				<wc>0</wc>
+				<review>0</review>
+			</attribute_config>
+		</itemconfig>	
+	 </default>
+</config>
