@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Extension which will allow to hide the price ,add to cart ,compare ,wishlist for the non register user 
